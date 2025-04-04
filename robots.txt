@@ -1,3 +1,9 @@
 User-agent:
 disallow:
+User-agent: AhrefsSiteAudit
+Allow: /
+User-agent: AhrefsBot
+Allow: /
+
+
 Sitemap: https://alatarlogisticsgroup.co.uk/sitemap.xml
