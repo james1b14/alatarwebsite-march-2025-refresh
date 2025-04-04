@@ -1,0 +1,3 @@
+User-agent:
+disallow:
+Sitemap: https://alatarlogisticsgroup.co.uk/sitemap.xml

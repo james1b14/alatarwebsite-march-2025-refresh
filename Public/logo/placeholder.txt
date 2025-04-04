@@ -1,0 +1,4 @@
+This is a placeholder file for the logo directory.
+Actual logo files should be placed here.
+
+Expected file: "Alatar logo resized.png"

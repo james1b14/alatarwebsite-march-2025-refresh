@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand colors */
+  --primary: #5271ff;
+  --primary-light: #8496ff;
+  --primary-dark: #3e57cc;
+  
+  /* Neutral colors */
+  --background: #ffffff;
+  --foreground: #111827;
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --border: #e5e7eb;
+  
+  /* Accent/UI colors */
+  --accent: #f8fafc;
+  --success: #22c55e;
+  --error: #ef4444;
+  --warning: #f59e0b;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Default focus styles */
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Container styles */
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+  max-width: 1440px;
+}
+
+/* Hero section with video background */
+.hero-section {
+  @apply relative overflow-hidden;
+  height: 80vh;
+  min-height: 600px;
+}
+
+.hero-video {
+  @apply absolute inset-0 w-full h-full object-cover z-0;
+}
+
+.hero-overlay {
+  @apply absolute inset-0 bg-black bg-opacity-50 z-10;
+}
+
+.hero-content {
+  @apply absolute inset-0 z-20 flex flex-col justify-center items-center text-white text-center p-4;
+}
+
+/* Button styles */
+.btn {
+  @apply inline-flex items-center justify-center rounded-md font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark shadow-md hover:shadow-lg;
+}
+
+.btn-outline {
+  @apply border border-border bg-transparent hover:bg-accent hover:text-foreground;
+}
+
+.btn-white {
+  @apply bg-white text-primary hover:bg-gray-100 shadow-md hover:shadow-lg;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold tracking-tight;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl leading-tight;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl leading-tight;
+}
+
+/* Card styles */
+.card {
+  @apply rounded-lg border border-border bg-background shadow-sm transition-all duration-200 hover:shadow-md;
+}
+
+.card-header {
+  @apply p-6 border-b border-border;
+}
+
+.card-content {
+  @apply p-6;
+}
+
+/* Service card */
+.service-card {
+  @apply rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-all duration-200 h-full flex flex-col;
+}
+
+.service-card-icon {
+  @apply w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center text-primary mb-4;
+}
+
+/* Feature block */
+.feature-block {
+  @apply bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-all duration-200;
+}
+
+/* Form styles */
+input, textarea, select {
+  @apply rounded-md border border-border px-4 py-3 w-full text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200;
+}
+
+.form-group {
+  @apply mb-6;
+}
+
+.form-label {
+  @apply block text-sm font-medium mb-2;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+/* Loading optimization */
+img, video {
+  @apply transition-opacity duration-300;
+}
+
+/* Section styles */
+.section {
+  @apply py-16 md:py-24;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-6 md:mb-10 leading-tight;
+}
+
+.section-subtitle {
+  @apply text-xl text-gray-600 mb-10 max-w-3xl mx-auto;
+}
+
+/* Quote banner */
+.quote-banner {
+  @apply bg-primary text-white py-16 md:py-20 px-4;
+}
+
+/* Stats counter */
+.stats-counter {
+  @apply text-4xl md:text-5xl font-bold text-primary mb-2;
+}
+
+/* Testimonial card */
+.testimonial-card {
+  @apply bg-white rounded-lg shadow-md p-6 border border-gray-100;
+}
+
+.testimonial-quote {
+  @apply text-gray-600 italic mb-4 relative pl-6;
+}
+
+.testimonial-quote::before {
+  content: '"';
+  @apply absolute left-0 top-0 text-3xl text-primary opacity-50;
+}
+
+/* 404 page */
+.error-page {
+  @apply flex flex-col items-center justify-center min-h-[70vh] text-center px-4;
+}
+
+/* Mobile menu */
+.mobile-menu-enter {
+  @apply transform -translate-y-full;
+}
+
+.mobile-menu-enter-active {
+  @apply transform translate-y-0 transition-transform duration-300;
+}
+
+.mobile-menu-exit {
+  @apply transform translate-y-0;
+}
+
+.mobile-menu-exit-active {
+  @apply transform -translate-y-full transition-transform duration-300;
+}
+
+/* Images and media */
+.img-fluid {
+  @apply w-full h-auto;
+}
+
+.img-cover {
+  @apply w-full h-full object-cover;
+}
+
+/* Contact info */
+.contact-info-item {
+  @apply flex items-start mb-4;
+}
+
+.contact-info-icon {
+  @apply text-primary mr-3 mt-1 flex-shrink-0;
+}
+
+/* Font styles and optimizations for Poppins */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* Mobile specific styles */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 70vh;
+    min-height: 500px;
+  }
+  
+  h1 {
+    @apply text-3xl;
+  }
+  
+  h2 {
+    @apply text-2xl;
+  }
+  
+  h3 {
+    @apply text-xl;
+  }
+  
+  .section {
+    @apply py-12;
+  }
+  
+  .container {
+    @apply px-5;
+  }
+}

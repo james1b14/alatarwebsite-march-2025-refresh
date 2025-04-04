@@ -1,0 +1,245 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "termsOfUse": "Terms of Use",
+    "transportHaulage": "Transport & Haulage",
+    "freightForwarding": "Freight Forwarding",
+    "specialisedHaulage": "Specialised Haulage",
+    "warehousing": "Warehousing",
+    "languageSwitcher": "Language"
+  },
+  "common": {
+    "readMore": "Read More",
+    "contactUs": "Contact Us",
+    "getAQuote": "Get a Quote",
+    "learnMore": "Learn More",
+    "viewAllServices": "View All Services",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "copyright": "Copyright",
+    "allRightsReserved": "All Rights Reserved"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Professional Logistics Solutions for Your Business",
+      "subtitle": "Reliable transport, freight forwarding, and warehousing services across the United Kingdom",
+      "cta": "Get a Quote"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive logistics solutions tailored to your business needs"
+    },
+    "about": {
+      "title": "About Alatar Logistics Group",
+      "subtitle": "Your Trusted Logistics Partner",
+      "content": "Alatar Logistics Group Ltd is a professional logistics company dedicated to providing comprehensive transport, haulage, and warehousing solutions. With our expertise and commitment to excellence, we ensure your goods reach their destination safely and on time."
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Read testimonials from our satisfied customers"
+    },
+    "stats": {
+      "title": "Our Impact",
+      "subtitle": "Key metrics that define our success",
+      "stat1": {
+        "value": "5000+",
+        "label": "Deliveries Completed"
+      },
+      "stat2": {
+        "value": "98%",
+        "label": "On-Time Delivery"
+      },
+      "stat3": {
+        "value": "100+",
+        "label": "Satisfied Clients"
+      },
+      "stat4": {
+        "value": "20+",
+        "label": "UK Locations Served"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with our team of logistics experts",
+      "formTitle": "Send Us a Message"
+    }
+  },
+  "services": {
+    "common": {
+      "title": "Our Services",
+      "subtitle": "Professional logistics solutions tailored to your needs",
+      "cta": "Contact Us for More Information"
+    },
+    "transportHaulage": {
+      "title": "Transport & Haulage",
+      "subtitle": "Reliable and efficient transport solutions across the UK",
+      "description": "Our transport and haulage services offer simple and efficient solutions for businesses of all sizes. From pallet transport to container deliveries, we ensure your goods reach their destination safely and on time. With our modern fleet and experienced drivers, we provide professional logistics services that meet the highest industry standards.",
+      "features": {
+        "feature1": {
+          "title": "Pallet Transport",
+          "description": "Efficient transportation of palletised goods with flexible delivery options and full tracking capabilities."
+        },
+        "feature2": {
+          "title": "Container Transport",
+          "description": "Seamless collection and delivery of containers from ports to destinations across the UK."
+        },
+        "feature3": {
+          "title": "Port Collections",
+          "description": "Prompt collection services from all major UK ports, with customs handling expertise."
+        },
+        "feature4": {
+          "title": "Groupage Services",
+          "description": "Cost-effective consolidation of smaller shipments for efficient transportation."
+        }
+      }
+    },
+    "freightForwarding": {
+      "title": "Freight Forwarding",
+      "subtitle": "Expert international shipping and customs handling",
+      "description": "Our freight forwarding services provide seamless international transport solutions with expert customs handling. We manage all aspects of the import/export process, from documentation to final delivery. With our extensive network of partners, we ensure efficient movement of your goods across borders while complying with all regulatory requirements.",
+      "features": {
+        "feature1": {
+          "title": "Customs Handling",
+          "description": "Expert navigation of customs procedures and documentation for smooth border crossings."
+        },
+        "feature2": {
+          "title": "International Shipping",
+          "description": "Comprehensive freight solutions for global markets with reliable partner networks."
+        },
+        "feature3": {
+          "title": "Documentation Management",
+          "description": "Precise handling of all required shipping documents for international transport."
+        },
+        "feature4": {
+          "title": "Consolidation Services",
+          "description": "Optimised cargo consolidation to reduce costs and improve efficiency."
+        }
+      }
+    },
+    "specialisedHaulage": {
+      "title": "Specialised Haulage",
+      "subtitle": "Solutions for oversized and heavy loads",
+      "description": "Our specialised haulage services cater to unique transport requirements, including heavy haulage and oversized loads. We have the expertise and equipment to handle challenging cargo that requires special attention. Our team ensures all regulatory requirements are met, providing safe and efficient transport for even the most complex loads.",
+      "features": {
+        "feature1": {
+          "title": "Heavy Haulage",
+          "description": "Safe transportation of heavy machinery and equipment with specialised vehicles."
+        },
+        "feature2": {
+          "title": "Oversized Loads",
+          "description": "Expert handling of wide, long, or high loads with necessary permits and escort services."
+        },
+        "feature3": {
+          "title": "Retail Logistics",
+          "description": "Tailored distribution services for retail businesses, including time-sensitive deliveries."
+        },
+        "feature4": {
+          "title": "Project Cargo",
+          "description": "End-to-end management of complex logistics projects requiring special handling."
+        }
+      }
+    },
+    "warehousing": {
+      "title": "Warehousing",
+      "subtitle": "Secure storage and distribution facilities",
+      "description": "Our warehousing operations provide secure, flexible storage solutions with comprehensive inventory management. We offer both short and long-term storage options in our modern facilities, equipped with the latest security and handling systems. Our warehousing services include storage, picking, packing, and distribution, providing a complete solution for your supply chain needs.",
+      "features": {
+        "feature1": {
+          "title": "Storage and Handling",
+          "description": "Secure facilities with flexible storage options and professional handling services."
+        },
+        "feature2": {
+          "title": "Inventory Management",
+          "description": "Advanced tracking systems providing real-time visibility of your inventory."
+        },
+        "feature3": {
+          "title": "Pick and Pack Services",
+          "description": "Efficient order fulfilment with careful preparation and packaging."
+        },
+        "feature4": {
+          "title": "Distribution",
+          "description": "Seamless integration with our transport services for end-to-end logistics solutions."
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your Trusted Logistics Partner in the UK",
+    "mission": {
+      "title": "Our Mission",
+      "content": "At Alatar Logistics Group Ltd, our mission is to provide reliable, efficient, and cost-effective logistics solutions that help our clients succeed. We are committed to delivering exceptional service with integrity and professionalism."
+    },
+    "values": {
+      "title": "Our Values",
+      "value1": {
+        "title": "Reliability",
+        "description": "We deliver on our promises, ensuring your goods arrive safely and on time, every time."
+      },
+      "value2": {
+        "title": "Excellence",
+        "description": "We strive for the highest standards in everything we do, from customer service to operational efficiency."
+      },
+      "value3": {
+        "title": "Innovation",
+        "description": "We continuously seek new ways to improve our services and provide better solutions for our clients."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Experienced professionals dedicated to exceptional service"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our logistics experts",
+    "formTitle": "Send Us a Message",
+    "addressTitle": "Our Address",
+    "hoursTitle": "Business Hours",
+    "hours": "Monday - Friday: 8:00 AM - 6:00 PM"
+  },
+  "termsOfUse": {
+    "title": "Terms of Use",
+    "subtitle": "Please read these terms carefully before using our services",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "These Terms of Use govern your use of the services provided by Alatar Logistics Group Ltd, registered in England under company number 13982779. By accessing or using our services, you agree to be bound by these Terms of Use."
+      },
+      "definitions": {
+        "title": "Definitions",
+        "content": "In these Terms of Use, 'we', 'our', and 'us' refer to Alatar Logistics Group Ltd. 'You' and 'your' refer to the customer or user of our services. 'Services' refers to any transport, haulage, freight forwarding, warehousing, or other logistics services provided by us."
+      },
+      "serviceUsage": {
+        "title": "Service Usage",
+        "content": "Our services are provided subject to these Terms of Use and any additional terms specific to the service requested. We reserve the right to modify or discontinue any service without notice."
+      },
+      "userObligations": {
+        "title": "User Obligations",
+        "content": "You are responsible for providing accurate information regarding goods to be transported or stored. You must ensure that goods are properly packaged and comply with all applicable laws and regulations."
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "All content on our website, including text, graphics, logos, and images, is the property of Alatar Logistics Group Ltd and is protected by copyright and other intellectual property laws."
+      },
+      "liability": {
+        "title": "Liability",
+        "content": "We are liable for loss or damage to goods in accordance with applicable transport and warehousing regulations. Our liability is limited to the extent permitted by law and as specified in our service contracts."
+      },
+      "termsChanges": {
+        "title": "Changes to Terms",
+        "content": "We reserve the right to modify these Terms of Use at any time. Changes will be effective upon posting to our website. Your continued use of our services after such changes constitutes acceptance of the new terms."
+      },
+      "governingLaw": {
+        "title": "Governing Law",
+        "content": "These Terms of Use are governed by the laws of England and Wales. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of England and Wales."
+      }
+    }
+  }
+}
