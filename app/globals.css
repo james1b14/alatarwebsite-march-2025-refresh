@@ -208,7 +208,8 @@ img, video {
 }
 
 .mobile-menu-enter-active {
-  @apply transform translate-y-0 transition-transform duration-300;
+  transform: translateY(0);
+  transition: transform 300ms;
 }
 
 .mobile-menu-exit {
@@ -284,4 +285,5 @@ img, video {
   .container {
     @apply px-5;
   }
+
 }
