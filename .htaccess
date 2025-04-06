@@ -1,4 +1,16 @@
+# Enable URL rewriting
 RewriteEngine On
+
+# Normalize URLs: remove trailing slashes (so /contact/ → /contact)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+# If the request is not a real file or folder...
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ $1.html [L]
+
+# Try to serve the .html version of the URL
+RewriteRule ^([a-zA-Z0-9/_-]+)$ $1.html [L]
+
+# Allow all bots by not blocking anything here
+# Use robots.txt for bot rules instead
