@@ -64,7 +64,7 @@ export default function HomePage() {
               <h3 className="text-xl font-semibold mb-3">Transport & Haulage</h3>
               <p className="text-gray-600 mb-4">Reliable and efficient transport services across the UK, with a modern fleet and experienced drivers.</p>
               <div className="mt-auto">
-                <Link href="/services/transport-haulage" className="text-primary font-medium hover:underline">
+                <Link href="/transport-haulage" className="text-primary font-medium hover:underline">
                   Learn More →
                 </Link>
               </div>

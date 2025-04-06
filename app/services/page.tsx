@@ -23,7 +23,7 @@ export default function ServicesPage() {
           playsInline
           poster="/images/container_port_logistics_evening.jpg"
         >
-          <source src="/video/Container_logistics.mp4" unoptimized={true} type="video/mp4" />
+          <source src="/video/Container_logistics.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         
@@ -85,7 +85,7 @@ export default function ServicesPage() {
                 <li>Port collections</li>
                 <li>UK-wide coverage</li>
               </ul>
-              <Link href="/services/transport-haulage" className="btn btn-primary px-6 py-3">
+              <Link href="/transport-haulage" className="btn btn-primary px-6 py-3">
                 Learn More
               </Link>
             </div>
@@ -186,7 +186,7 @@ export default function ServicesPage() {
                   loop 
                   playsInline
                 >
-                  <source src="/video/guy_walking_in_a_warehouse.mp4" unoptimized={true} type="video/mp4" />
+                  <source src="/video/guy_walking_in_a_warehouse.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

@@ -136,7 +136,7 @@ export default function AboutPage() {
             <div className="bg-white bg-opacity-10 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3">Transport & Haulage</h3>
               <p className="mb-4">Reliable and efficient transport services for your goods across the UK.</p>
-              <Link href="/services/transport-haulage" className="inline-block border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-primary transition-colors">
+              <Link href="/transport-haulage" className="inline-block border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-primary transition-colors">
                 Learn More
               </Link>
             </div>

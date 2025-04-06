@@ -23,7 +23,7 @@ export default function TransportHaulagePage() {
           playsInline
           poster="/images/white_truck_on_road_large.jpg"
         >
-          <source src="/video/Trucks_on_road.mp4" unoptimized={true} type="video/mp4" />
+          <source src="/video/Trucks_on_road.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         
@@ -162,7 +162,7 @@ export default function TransportHaulagePage() {
                   loop 
                   playsInline
                 >
-                  <source src="/video/Driver_driving_a_truck.mp4" unoptimized={true} type="video/mp4" />
+                  <source src="/video/Driver_driving_a_truck.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
