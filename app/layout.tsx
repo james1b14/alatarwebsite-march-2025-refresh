@@ -16,8 +16,8 @@ const poppins = Poppins({
 // Metadata for SEO
 export const metadata: Metadata = {
   title: "Alatar Logistics Group Ltd",
-  description: "Professional logistics solutions for businesses across the UK",
-  keywords: "logistics, transport, haulage, freight forwarding, warehousing, UK logistics",
+  description: "Alatar Logistics Group Ltd - Professional logistics solutions for businesses across the UK",
+  keywords: "logistics, transport, haulage, warehousing, UK logistics",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -28,7 +28,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         
         {/* ✅ Facebook Domain Verification */}
         <meta name="facebook-domain-verification" content="05h0exlfb2f57mciln38hvtnf81sb1" />
-        
+
+        {/* ✅ Open Graph Meta Tags */}
+
+        <meta property="og:title" content="Alatar Logistics Group Ltd" />
+        <meta property="og:description" content="Alatar Logistics Group Ltd - Professional logistics solutions for businesses across the UK" />
+        <meta property="og:image" content="https://alatarlogisticsgroup.co.uk/logo/alatar logo resized.png" />
+        <meta property="og:url" content="https://alatarlogisticsgroup.co.uk" />
+        <meta property="og:type" content="website" />
+      
         {/* ✅ Favicon Files */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -100,6 +108,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </head>
         
        <body className="font-poppins bg-white text-gray-900 min-h-screen flex flex-col">
+        
 
         {/* ✅ Website Header */}
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">

@@ -3,44 +3,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-       <loc>https://alatarlogisticsgroup.co.uk</loc>
-       <lastmod>2025-03-23T09:25:49+00:00</lastmod>
+       <loc>https://alatarlogisticsgroup.co.uk/</loc>
+       <lastmod>2025-04-10T18:34:40+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
-       <loc>https://alatarlogisticsgroup.co.uk/services.html</loc>
-       <lastmod>2025-03-23T09:26:23+00:00</lastmod>
+       <loc>https://alatarlogisticsgroup.co.uk/services</loc>
+       <lastmod>2025-04-10T18:34:41+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
   </url>
   <url>
-       <loc>https://alatarlogisticsgroup.co.uk/about.html</loc>
-       <lastmod>2025-03-23T09:25:59+00:00</lastmod>
+       <loc>https://alatarlogisticsgroup.co.uk/contact</loc>
+       <lastmod>2025-04-10T18:34:38+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://alatarlogisticsgroup.co.uk/transport-haulage</loc>
+       <lastmod>2025-04-10T18:34:43+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
   </url>
   <url>
-       <loc>https://alatarlogisticsgroup.co.uk/contact.html</loc>
-       <lastmod>2025-03-23T09:26:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
-  </url>
-  <url>
-       <loc>https://alatarlogisticsgroup.co.uk/transport-haulage.html</loc>
-       <lastmod>2025-03-23T09:26:24+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
-  </url>
-  <url>
-       <loc>https://alatarlogisticsgroup.co.uk/terms-of-use.html</loc>
-       <lastmod>2025-03-23T09:26:25+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
-  </url>
-  <url>
-       <loc>https://alatarlogisticsgroup.co.uk/privacy/alatar%20logistics%20group%20ltd%20privacy%20policy.pdf</loc>
-       <lastmod>2025-03-23T09:26:17+00:00</lastmod>
+       <loc>https://alatarlogisticsgroup.co.uk/about</loc>
+       <lastmod>2025-04-10T18:34:37+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
