@@ -30,7 +30,7 @@ export default function HomePage() {
             Professional Logistics Solutions Across the UK
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-slide-up">
-            Transport, Haulage, Freight Forwarding, and Warehousing Services Tailored to Your Business Needs
+            Simplified Transport, Haulage and Warehousing Services Tailored To Your Business Needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
             <Link href="/services" className="btn btn-primary px-8 py-3 text-lg">
@@ -49,7 +49,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="section-title">Our Logistics Services</h2>
             <p className="section-subtitle">
-              Alatar Logistics Group provides comprehensive solutions to help your business operate efficiently and meet your delivery needs.
+              Alatar Logistics Group provides comprehensive logistics solutions to help your business operate smoothly and meet your customers needs.
             </p>
           </div>
           
@@ -62,7 +62,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-3">Transport & Haulage</h3>
-              <p className="text-gray-600 mb-4">Reliable and efficient transport services across the UK, with a modern fleet and experienced drivers.</p>
+              <p className="text-gray-600 mb-4">Reliable and straight forward transport services across the UK, with a modern fleet and experienced drivers.</p>
               <div className="mt-auto">
                 <Link href="/transport-haulage" className="text-primary font-medium hover:underline">
                   Learn More →
@@ -94,7 +94,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-3">Specialised Haulage</h3>
-              <p className="text-gray-600 mb-4">Custom solutions for oversized, heavy, or unusual cargo with specialized equipment.</p>
+              <p className="text-gray-600 mb-4">Custom solutions for oversized, heavy, or unusual cargo with specialised equipment.</p>
               <div className="mt-auto">
                 <Link href="/services" className="text-primary font-medium hover:underline">
                   Learn More →
@@ -136,7 +136,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Nationwide Coverage</h3>
-                    <p className="text-gray-600">We provide comprehensive logistics services across the entire United Kingdom.</p>
+                    <p className="text-gray-600">We provide comprehensive logistics services across the United Kingdom and Europe.</p>
                   </div>
                 </div>
                 
