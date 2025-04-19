@@ -7,8 +7,8 @@ import { generateSEOMetadata, defaultLocale } from '@/app/lib/utils';
 export async function generateStaticParams() {
   return [
       { lang: 'en' }, // English
-      { lang: 'fr' }, // French
-      { lang: 'es' }, // Spanish
+      { lang: 'pl' }, // polish
+      { lang: 'ur' }, // urdu
   ];
 }
 

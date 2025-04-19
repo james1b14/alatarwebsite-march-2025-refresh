@@ -27,10 +27,14 @@ export default function HomePage() {
         {/* Hero Content */}
         <div className="hero-content max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-            Professional Logistics Solutions Across the UK
+            Alatar Logistics Group Ltd
           </h1>
+          <h2>
+          Transport, Haulage and Warehousing Services
+          </h2>
+          <br></br>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-slide-up">
-            Simplified Transport, Haulage and Warehousing Services Tailored To Your Business Needs
+            Making Logistics Simple for UK Businesses
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
             <Link href="/services" className="btn btn-primary px-8 py-3 text-lg">
