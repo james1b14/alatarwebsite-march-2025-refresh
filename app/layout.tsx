@@ -96,7 +96,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <img
             height="1"
             width="1"
-            style={{ display: "none" }}
+            className="hidden-img"
             src="https://www.facebook.com/tr?id=684324676154341&ev=PageView&noscript=1"
             alt="Facebook Pixel"
           />

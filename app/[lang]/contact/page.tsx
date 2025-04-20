@@ -108,12 +108,10 @@ export default async function ContactPage({
               <div className="rounded-lg overflow-hidden h-80 mt-8">
                 <iframe 
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.7089726757185!2d0.36744897670675985!3d51.44192661689219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b26b594e6d43%3A0x7f59ada46b0e3833!2s142-143%20Parrock%20St%2C%20Gravesend%20DA12%201EY!5e0!3m2!1sen!2suk!4v1710624400026!5m2!1sen!2suk" 
-                  width="100%" 
-                  height="100%" 
-                  style={{ border: 0 }} 
+                  className="map-iframe" 
                   allowFullScreen={false} 
-                  loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
+                  title="Alatar Logistics Group Location"
                 ></iframe>
               </div>
             </div>
@@ -125,7 +123,7 @@ export default async function ContactPage({
                 
                 {/* HubSpot Form */}
                 <div id="hubspot-form">
-                  <script charSet="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+                  <script charSet="utf-8" type="text/javascript" src="https://js-eu1.hsforms.net/forms/embed/v2.js"></script>
                   <script
                     dangerouslySetInnerHTML={{
                       __html: `
