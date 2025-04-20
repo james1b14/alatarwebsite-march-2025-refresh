@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import StandardHeader from "@/app/components/layout/StandardHeader";
 import Script from "next/script";
 import { Poppins } from 'next/font/google';
 
@@ -111,20 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         
 
         {/* ✅ Website Header */}
-        <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-          <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-            <Link href="/" className="flex items-center">
-              <Image 
-                src="/logo/alatar logo resized.png"
-                alt="Alatar Logistics Group Ltd" 
-                width={180} 
-                height={50} 
-                className="h-12 w-auto"
-                priority
-              />
-            </Link>
-          </div>
-        </header>
+        <StandardHeader />
 
         {/* ✅ Page Content */}
         <main className="flex-grow">

@@ -8,6 +8,8 @@ import { locales } from '@/app/lib/utils';
 import { Container } from '@/app/components/ui/Container';
 import { Logo } from '@/app/components/ui/Logo';
 import { LinkButton } from '@/app/components/ui/Button';
+import HamburgerIcon from '@/app/components/ui/HamburgerIcon';
+import SlideMenu from '@/app/components/ui/SlideMenu';
 
 interface HeaderProps {
   dict: Dictionary;
@@ -17,6 +19,7 @@ interface HeaderProps {
 export default function Header({ dict, lang }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false);
+  const [isSlideMenuOpen, setIsSlideMenuOpen] = useState(false);
   const pathname = usePathname();
   
   // Get the path without the language prefix
@@ -79,7 +82,7 @@ export default function Header({ dict, lang }: HeaderProps) {
               <button
                 onClick={toggleLanguageMenu}
                 className="flex items-center text-base font-medium text-gray-800 hover:text-primary"
-                aria-expanded={isLanguageMenuOpen}
+                aria-expanded={isLanguageMenuOpen ? 'true' : 'false'}
               >
                 <span className="sr-only">{dict.navigation.languageSwitcher}</span>
                 <span className="uppercase">{lang}</span>
@@ -117,12 +120,12 @@ export default function Header({ dict, lang }: HeaderProps) {
             </LinkButton>
           </div>
           
-          {/* Mobile Menu Button */}
+          {/* Mobile Language and Menu Buttons */}
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleLanguageMenu}
               className="p-2 rounded-md text-gray-800 mr-2"
-              aria-expanded={isLanguageMenuOpen}
+              aria-expanded={isLanguageMenuOpen ? 'true' : 'false'}
             >
               <span className="sr-only">{dict.navigation.languageSwitcher}</span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -133,7 +136,7 @@ export default function Header({ dict, lang }: HeaderProps) {
             <button
               onClick={toggleMenu}
               className="p-2 rounded-md text-gray-800"
-              aria-expanded={isMenuOpen}
+              aria-expanded={isMenuOpen ? 'true' : 'false'}
             >
               <span className="sr-only">Open main menu</span>
               {isMenuOpen ? (
@@ -147,10 +150,19 @@ export default function Header({ dict, lang }: HeaderProps) {
               )}
             </button>
           </div>
+          
+          {/* Hamburger Menu Button (visible on all screen sizes) */}
+          <div className="ml-2">
+            <HamburgerIcon 
+              isOpen={isSlideMenuOpen} 
+              onClick={() => setIsSlideMenuOpen(!isSlideMenuOpen)}
+              className="text-gray-800 hover:text-primary transition-colors"
+            />
+          </div>
         </div>
       </Container>
       
-      {/* Mobile Navigation */}
+      {/* Keep original mobile navigation */}
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-200 py-2">
           <Container className="space-y-1">
@@ -223,6 +235,13 @@ export default function Header({ dict, lang }: HeaderProps) {
           </Container>
         </div>
       )}
+      
+      {/* New SlideMenu Component */}
+      <SlideMenu 
+        isOpen={isSlideMenuOpen}
+        onClose={() => setIsSlideMenuOpen(false)}
+        lang={lang}
+      />
     </header>
   );
 }
