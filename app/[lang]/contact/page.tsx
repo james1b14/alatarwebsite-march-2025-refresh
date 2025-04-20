@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getDictionary, Locale } from '@/app/lib/i18n/getDictionary';
 import { generateSEOMetadata } from '@/app/lib/utils';
+import HubspotForm from '@/app/components/ui/HubspotForm';
 
 export async function generateStaticParams() {
   return [
@@ -122,18 +123,11 @@ export default async function ContactPage({
                 <h2 className="text-2xl font-bold mb-6">{dictionary.contact.formTitle}</h2>
                 
                 {/* HubSpot Form */}
-                <div id="hubspot-form">
-                  <script charSet="utf-8" type="text/javascript" src="https://js-eu1.hsforms.net/forms/embed/v2.js"></script>
-                  <script
-                    dangerouslySetInnerHTML={{
-                      __html: `
-                        hbspt.forms.create({
-                          region: "eu1",
-                          portalId: "26284292",
-                          formId: "3e9e616c-4aa8-4b59-a733-7573986f3332"
-                        });
-                      `,
-                    }}
+                <div className="bg-gray-50 p-2 rounded">
+                  <HubspotForm 
+                    portalId="26284292"
+                    formId="3e9e616c-4aa8-4b59-a733-7573986f3332"
+                    region="eu1"
                   />
                 </div>
               </div>

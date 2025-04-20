@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Script from 'next/script';
+import HubspotForm from '@/app/components/ui/HubspotForm';
 
 export default function HomePage() {
   return (
@@ -297,24 +297,12 @@ export default function HomePage() {
               <h3 className="text-2xl font-semibold mb-6">Send Us a Message</h3>
               
               {/* Hubspot Form */}
-              <div id="hubspot-form">
-                <Script
-                  strategy="afterInteractive"
-                  src="//js-eu1.hsforms.net/forms/embed/v2.js"
+              <div className="bg-white rounded p-1">
+                <HubspotForm 
+                  portalId="26284292"
+                  formId="3e9e616c-4aa8-4b59-a733-7573986f3332"
+                  region="eu1"
                 />
-                <Script id="hubspot-form-script" strategy="afterInteractive">
-                  {`
-                    document.addEventListener('DOMContentLoaded', function() {
-                      if (window.hbspt) {
-                        hbspt.forms.create({
-                          region: "eu1",
-                          portalId: "26284292",
-                          formId: "3e9e616c-4aa8-4b59-a733-7573986f3332"
-                        });
-                      }
-                    });
-                  `}
-                </Script>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import Script from 'next/script';
+import HubspotForm from '@/app/components/ui/HubspotForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Alatar Logistics Group Ltd',
@@ -45,24 +45,12 @@ export default function ContactPage() {
               </p>
 
               {/* Hubspot Form */}
-              <div id="hubspot-form" className="mt-6">
-                <Script
-                  strategy="afterInteractive"
-                  src="//js-eu1.hsforms.net/forms/embed/v2.js"
+              <div className="mt-6 bg-gray-50 p-2 rounded">
+                <HubspotForm 
+                  portalId="26284292"
+                  formId="3e9e616c-4aa8-4b59-a733-7573986f3332"
+                  region="eu1"
                 />
-                <Script id="hubspot-form-script" strategy="afterInteractive">
-                  {`
-                    document.addEventListener('DOMContentLoaded', function() {
-                      if (window.hbspt) {
-                        hbspt.forms.create({
-                          region: "eu1",
-                          portalId: "26284292",
-                          formId: "3e9e616c-4aa8-4b59-a733-7573986f3332"
-                        });
-                      }
-                    });
-                  `}
-                </Script>
               </div>
             </div>
 
