@@ -57,7 +57,7 @@ export default function ContactPage() {
                         hbspt.forms.create({
                           region: "eu1",
                           portalId: "26284292",
-                          formId: "8e121916-ba2d-4427-964c-e27d3d39704b"
+                          formId: "3e9e616c-4aa8-4b59-a733-7573986f3332"
                         });
                       }
                     });
