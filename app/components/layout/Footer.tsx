@@ -22,7 +22,14 @@ export default function Footer({ dict, lang }: FooterProps) {
             <div className="mb-4">
               {/* Company Logo */}
               <div className="inline-block mb-4">
-                <Logo lang={lang} className="h-12 w-auto" />
+                <Image 
+                  src="/Images/LargeLogo.png" 
+                  alt="Alatar Logistics Group Ltd Logo" 
+                  width={180} 
+                  height={60} 
+                  className="h-auto w-auto max-h-12"
+                  priority
+                />
               </div>
               
               {/* Company Address */}
@@ -178,9 +185,9 @@ export default function Footer({ dict, lang }: FooterProps) {
       </Container>
       
       {/* Copyright Bar */}
-      <div className="border-t border-gray-200 py-6 bg-gray-50">
+      <div className="border-t border-gray-200 py-6 bg-primary">
         <Container>
-          <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+          <div className="flex flex-col md:flex-row justify-between items-center text-white text-sm">
             <p>&copy; {currentYear} Alatar Logistics Group Ltd. {dict.common.allRightsReserved}</p>
             <p className="mt-2 md:mt-0">Company Registration: 13982779</p>
           </div>

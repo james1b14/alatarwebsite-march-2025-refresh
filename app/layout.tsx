@@ -119,13 +119,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
 
         {/* ✅ Website Footer */}
-        <footer className="bg-gray-900 text-white py-12">
-          <div className="container mx-auto px-4">
-            <p className="text-sm text-gray-400 text-center">
-              © {new Date().getFullYear()} Alatar Logistics Group Ltd. All rights reserved.
-            </p>
-          </div>
-        </footer>
+        <div className="mt-auto">
+          {/* Import and use the updated Footer component */}
+          {/* We need to import the required props from i18n */}
+          {(() => {
+            // Import the Footer component here since it can't be imported at the top level in a server component
+            const Footer = require('./components/layout/Footer').default;
+            // Use default English locale for non-language specific pages
+            const defaultDictionary = require('./lib/i18n/dictionaries/en-GB.json');
+            
+            return <Footer dict={defaultDictionary} lang="en-GB" />;
+          })()}
+        </div>
       </body>
     </html>
   );
