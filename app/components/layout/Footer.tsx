@@ -85,32 +85,32 @@ export default function Footer({ dict, lang }: FooterProps) {
             <h3 className="text-primary font-semibold text-lg mb-4">{dict.navigation.services}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${lang}/services/transport-haulage`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/transport-haulage`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.transportHaulage}
                 </Link>
               </li>
               <li>
-                <Link href={`/${lang}/services/freight-forwarding`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/services/freight-forwarding`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.freightForwarding}
                 </Link>
               </li>
               <li>
-                <Link href={`/${lang}/services/specialised-haulage`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/services/specialised-haulage`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.specialisedHaulage}
                 </Link>
               </li>
               <li>
-                <Link href={`/${lang}/services/warehousing`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/services/warehousing`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.warehousing}
                 </Link>
               </li>
               <li>
-                <Link href={`/${lang}/about`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/about`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.about}
                 </Link>
               </li>
               <li>
-                <Link href={`/${lang}/contact`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/contact`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.contact}
                 </Link>
               </li>
@@ -122,14 +122,14 @@ export default function Footer({ dict, lang }: FooterProps) {
             <h3 className="text-primary font-semibold text-lg mb-4">{dict.navigation.termsOfUse}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${lang}/terms-of-use`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/terms-of-use`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.common.termsOfUse}
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={'/Privacy/Alatar%20Logistics%20Group%20Ltd%20Privacy%20Policy.pdf'} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.common.privacyPolicy}
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-primary transition-colors">
