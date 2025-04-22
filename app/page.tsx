@@ -81,8 +81,8 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Freight Forwarding</h3>
-              <p className="text-gray-600 mb-4">Expert management of your shipping process including documentation and customs clearance.</p>
+              <h3 className="text-xl font-semibold mb-3">Small Business Logisitics</h3>
+              <p className="text-gray-600 mb-4">We provide a range of support service specifically tailored for small businesses.</p>
               <div className="mt-auto">
                 <Link href="/services" className="text-primary font-medium hover:underline">
                   Learn More →
@@ -310,6 +310,7 @@ export default function HomePage() {
       </section>
       
       {/* Clients/Stats Section */}
+      {/*
       <section className="section bg-gray-50">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
@@ -332,6 +333,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      */}
     </>
   );
 }

@@ -94,18 +94,24 @@ export default function ServicesPage() {
           {/* Freight Forwarding */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 items-center">
             <div className="order-2 md:order-1">
-              <h2 className="text-3xl font-bold mb-4">Freight Forwarding</h2>
+              <h2 className="text-3xl font-bold mb-4">Small Business Logistics Support</h2>
               <p className="mb-4">
-                Our comprehensive freight forwarding services take the complexity out of shipping. 
-                We handle all aspects of the logistics process, from documentation and customs clearance to 
-                transportation coordination, making international shipping straightforward and efficient.
+                We understand that running a small business can be stressful and costly.  
+                <br /><br />
+                Sometimes small business owners can run into complex problems that they just don't have the expertise to navigate.  We help small businesses owners with their logistics, supply chain and transport
+                needs so that they can focus on making money.
+                <br /><br />
+                <p>
+                  Some of our services tailored for small business include:
+                </p>
               </p>
               <ul className="list-disc list-inside mb-6 space-y-2">
-                <li>Customs handling and documentation</li>
-                <li>International shipping coordination</li>
-                <li>Import and export services</li>
-                <li>Supply chain management</li>
-                <li>Multi-modal transportation solutions</li>
+                <li>Pick, pack and send</li>
+                <li>Support with import and export administration and transport</li>
+                <li>Supply chain and warehouse management support </li>
+                <li>Inbound and outbound transport, whether it's containers, pallets or parcels</li>
+                <li>3rd party courier management</li>
+                <li>Transport and logistics consultancy</li>
               </ul>
               <Link href="/services" className="btn btn-primary px-6 py-3">
                 Learn More
