@@ -54,6 +54,7 @@ export default function SlideMenu({ isOpen, onClose, lang }: SlideMenuProps) {
     { href: '/transport-haulage', label: 'Transport & Haulage' },
     { href: '/about', label: 'About' },
     { href: '/contact', label: 'Contact' },
+    { href: '/warehousing', label: 'Warehousing' },
     // Future pages with "coming soon" indicator
     { href: '#', label: 'Careers', comingSoon: true },
     { href: '#', label: 'Create Account', comingSoon: true },

@@ -179,7 +179,7 @@ export default function ServicesPage() {
                 <li>Cross-docking capabilities</li>
                 <li>Distribution center operations</li>
               </ul>
-              <Link href="/services" className="btn btn-primary px-6 py-3">
+              <Link href="/warehousing" className="btn btn-primary px-6 py-3">
                 Learn More
               </Link>
             </div>

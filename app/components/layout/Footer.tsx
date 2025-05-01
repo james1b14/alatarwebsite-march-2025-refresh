@@ -90,17 +90,12 @@ export default function Footer({ dict, lang }: FooterProps) {
                 </Link>
               </li>
               <li>
-                <Link href={`/services/freight-forwarding`} className="text-gray-600 hover:text-primary transition-colors">
-                  {dict.navigation.freightForwarding}
-                </Link>
-              </li>
-              <li>
                 <Link href={`/services/specialised-haulage`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.specialisedHaulage}
                 </Link>
               </li>
               <li>
-                <Link href={`/services/warehousing`} className="text-gray-600 hover:text-primary transition-colors">
+                <Link href={`/warehousing`} className="text-gray-600 hover:text-primary transition-colors">
                   {dict.navigation.warehousing}
                 </Link>
               </li>
